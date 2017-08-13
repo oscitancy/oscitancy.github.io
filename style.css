@@ -1,0 +1,30 @@
+/********** Reset **********/
+
+* {border:0px; margin:0px; padding:0px; border-collapse:collapse; border-spacing:0px; font-family:'Abel',sans-serif; font-weight:400;}
+html {min-height:100%;}
+
+/********** Style **********/
+
+.hidden {display:none;}
+
+* {transition-duration:0.1s;}
+*::selection {background: #ff0080; color:white;}
+
+body {background:url(background.png) center top;}
+
+nav {background:#101010;}
+nav a {display:inline-block; padding:10px 20px; text-decoration:none; color:white; font-size:1em;}
+nav a:hover {color:#ff0080;}
+
+header {}
+header h1 {padding:100px;text-align:center; font-size:4em;}
+
+main {width:960px; margin:auto;}
+
+section {display:block; margin-bottom:40px; background:white;}
+section a {text-decoration:none; color:black;}
+section h2 {padding:2px 10px; background:black; color:white;}
+section:hover h2 {color:#ff0080;}
+section p {border:solid black 1px; border-top:none; padding:10px;}
+
+footer {height:300px;}
